@@ -1,0 +1,31 @@
+{"exercicio": {
+    
+    "Enunciado" : "Defina a função int factorial(x) que dado um inteiro X,
+    calcula o seu factorial.",
+    
+    "Template" : "
+    #include <stdio.h>
+    #include <stdlib.h>
+
+    int main(int argc, char* argv[]){
+
+    int input = atoi(argv[1]);
+    int output = atoi(argv[2]);
+
+    if(factorial(input) == output){
+    	printf("Teste OK!\n");
+    }
+    else{
+    	printf("Teste errado!\n");
+    }
+    return 1;
+}",
+	
+    "Valores de teste" :{
+       "2" : "2",
+       "10" : "3628800",
+       "0" : "1",
+    },
+    
+    "Linguagem" : "C"
+}}
